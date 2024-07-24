@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+    <div class="Label" align="center">
+        <h1>Temperature Conversion Calculator</h1>
+        <input type="number" id="textBox" placeholder="Enter Value"><br>
+        <form id="form">
+            <input type="radio" id="toFk" name="unit" value="C">
+            <label for="toFk">°C -> °F & °K</label><br>
+
+            <input type="radio" id="toCk" name="unit" value="F">
+            <label for="toCk">°F -> °C & °K</label><br>
+
+            <input type="radio" id="toCF" name="unit" value="K">
+            <label for="toCF">°K -> °C & °F</label><br>
+
+            <button type="button" onclick="convert()">Submit</button>
+            <p id="outcome"></p>
+    </div>
+    <div class="outcome">
+            <table id="outcome">
+                <tr>
+                    <td>°F</td>
+                    <td id="outcomeF"></td>
+                </tr>
+                <tr>
+                    <td>°K</td>
+                    <td id="outcomeK"></td>
+                </tr>
+                <tr>
+                    <td>°C</td>
+                    <td id="outcomeC"></td>
+                </tr>
+            </table>
+        </div>     
+    </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
