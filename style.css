@@ -7,8 +7,9 @@ table tr {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
     overflow: hidden;
+    width: 80%;
+    min-width: 360px;
     height: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
@@ -19,8 +20,9 @@ table tr {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
     overflow: hidden;
+    width: 80%;
+    min-width: 360px;
     height: 70px;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
@@ -43,8 +45,9 @@ body{
 .parent {
     display:block;
     align-items: center;
-    width: 600px;
+    width: 100%;
     overflow: hidden;
     height: 500px;
     justify-content: center;
 }
+
